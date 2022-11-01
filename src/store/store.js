@@ -16,9 +16,11 @@
 
 import { configureStore } from "@reduxjs/toolkit";
 import { todos } from "./reducers";
+import { authors } from "./reducerAuthor";
 
 export default configureStore({
     reducer: {
         todos,
+        authors,
     }
 });
